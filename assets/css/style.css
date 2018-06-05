@@ -3,6 +3,10 @@ body {
   font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
+hr {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
 .primary {
   background-color: #8d6e63;
   color: white;
@@ -20,4 +24,13 @@ body {
 .secondary {
   background-color: #546e7a;
   color: white;
+}
+
+.main.container {
+  margin: 30px auto 100px auto;
+}
+
+.live-stream-frame {
+  height: 70vh;
+  width: 70vw;
 }
