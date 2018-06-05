@@ -1,0 +1,23 @@
+body {
+  background-color: #e9ecef;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.primary {
+  background-color: #8d6e63;
+  color: white;
+}
+
+.primary.dark {
+  background-color: #5f4339;
+}
+
+.primary.light {
+  background-color: #be9c91;
+  color: black;
+}
+
+.secondary {
+  background-color: #546e7a;
+  color: white;
+}
