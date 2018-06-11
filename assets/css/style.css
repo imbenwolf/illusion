@@ -23,6 +23,14 @@ a.btn.secondary:hover {
   color: white;
 }
 
+.display-4 {
+  font-size: 3rem;
+}
+
+.btn-lg {
+  font-size: initial;
+}
+
 .primary {
   background-color: #8d6e63;
   color: white;
@@ -84,6 +92,14 @@ a.btn.secondary:hover {
 }
 
 @media only screen and (min-width: 1200px) {
+  .display-4 {
+    font-size: 3.5rem;
+  }
+
+  .btn-lg {
+    font-size: 1.25rem;
+  }
+
   .main.container {
     margin: 30px auto 100px auto;
   }
