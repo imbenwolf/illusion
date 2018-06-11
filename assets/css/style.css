@@ -41,10 +41,34 @@ a.btn.secondary:hover {
 }
 
 .main.container {
-  margin: 30px auto 100px auto;
+  margin: 30px auto 240px auto;
+}
+
+.btn-footer-group {
+  width: 100%;
+}
+
+.btn-footer {
+  display: block;
+  width: 100%;
 }
 
 .live-stream-wrapper {
   height: 70vh;
   width: 70vw;
+}
+
+@media only screen and (min-width: 1200px) {
+  .main.container {
+    margin: 30px auto 75px auto;
+  }
+
+  .btn-footer-group {
+    width: auto;
+  }
+
+  .btn-footer {
+    display: inline-block;
+    width: auto;
+  }
 }
