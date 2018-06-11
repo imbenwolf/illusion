@@ -26,6 +26,11 @@ hr {
   color: white;
 }
 
+.secondary.light {
+  background-color: #819ca9;
+  color: black;
+}
+
 .main.container {
   margin: 30px auto 100px auto;
 }
@@ -33,5 +38,4 @@ hr {
 .live-stream-wrapper {
   height: 70vh;
   width: 70vw;
-  padding: 5px;
 }
