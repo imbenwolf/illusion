@@ -7,6 +7,11 @@ hr {
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
+a.btn.secondary:hover {
+  background-color: #29434e;
+  color: white;
+}
+
 .primary {
   background-color: #8d6e63;
   color: white;
@@ -29,6 +34,10 @@ hr {
 .secondary.light {
   background-color: #819ca9;
   color: black;
+}
+
+.secondary.dark {
+  background-color: #29434e;
 }
 
 .main.container {
