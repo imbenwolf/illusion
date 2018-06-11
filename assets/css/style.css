@@ -12,6 +12,12 @@ hr {
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  max-width: 100% !important;
+}
+
 a.btn.secondary:hover {
   background-color: #29434e;
   color: white;
@@ -46,13 +52,7 @@ a.btn.secondary:hover {
 }
 
 .main.container {
-  margin: 30px auto 250px auto;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  max-width: 100% !important;
+  margin: 30px auto 275px auto;
 }
 
 .footer-text {
