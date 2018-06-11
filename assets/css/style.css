@@ -1,3 +1,8 @@
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
 body {
   background-color: #e9ecef;
   font-family: 'Roboto', 'Open Sans', sans-serif;
@@ -41,7 +46,17 @@ a.btn.secondary:hover {
 }
 
 .main.container {
-  margin: 30px auto 275px auto;
+  margin: 30px auto 250px auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  max-width: 100% !important;
+}
+
+.footer-text {
+  line-height: 45px;
 }
 
 .btn-footer-group {
@@ -64,6 +79,8 @@ a.btn.secondary:hover {
   }
 
   .btn-footer-group {
+    display: inline-block;
+    float: right;
     width: auto;
   }
 
