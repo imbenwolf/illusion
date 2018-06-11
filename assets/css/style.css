@@ -41,7 +41,7 @@ a.btn.secondary:hover {
 }
 
 .main.container {
-  margin: 30px auto 250px auto;
+  margin: 30px auto 275px auto;
 }
 
 .btn-footer-group {
@@ -53,14 +53,14 @@ a.btn.secondary:hover {
   width: 100%;
 }
 
-.live-stream-wrapper {
-  height: 70vh;
-  width: 70vw;
+.video-container {
+  height: 50vw;
+  width: 80vw;
 }
 
 @media only screen and (min-width: 1200px) {
   .main.container {
-    margin: 30px auto 75px auto;
+    margin: 30px auto 100px auto;
   }
 
   .btn-footer-group {
