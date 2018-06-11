@@ -88,6 +88,11 @@ a.btn.secondary:hover {
     margin: 30px auto 100px auto;
   }
 
+  .video-container {
+    width: 80%;
+    padding-top: 45% !important;
+  }
+
   .btn-footer-group {
     display: inline-block;
     float: right;
